@@ -14,7 +14,7 @@ const createGaletyElements = galleryItems
   })
   .join('');
 
-console.log(createGaletyElements);
+// console.log(createGaletyElements);
 
 selectGalleryList.innerHTML = createGaletyElements;
 // selectGalleryList.insertAdjacentHTML('beforeend', createGaletyElements);
